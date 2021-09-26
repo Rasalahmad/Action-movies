@@ -2,8 +2,9 @@
     text-align: center;
     margin: 5px;
     padding: 5px;
-    border: 1px solid #e79fd9;
+    border: 1px solid gray;
     border-radius: 15px;
+    box-shadow: 10px 10px 10px white;
 }
 .subscripted{
     display: flex;

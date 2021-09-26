@@ -11,6 +11,7 @@ const Card = (props) => {
                 <h5 className = 'text-primary'>Subscription Card</h5>
                 <h6>Subscripted: {card.length}</h6>
                 <p>Total Charge: ${total}</p>
+                <button className = 'btn btn-primary'>Pay Now</button>
             </div>
             <div>
                 {

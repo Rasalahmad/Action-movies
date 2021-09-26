@@ -34,7 +34,7 @@ const Header = () => {
                 <div className = 'description container mx-auto'>
                     <h1>Top 16 Action Movies</h1>
                     <p>This is chronological list of action films split by decade. Often there may be considerable overlap particularly between action and other genres (including, horror, comedy, and science fiction films) the lists should attempt to document films which are more closely related to action, even if they bend genres.</p>
-                    <h1>Total Views: 1500 Million</h1>            
+                    <h1>Total Views: <span className = 'text-danger'>1500 Million</span></h1>            
                 </div>
         </div>
     );

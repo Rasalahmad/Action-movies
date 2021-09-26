@@ -6,6 +6,7 @@
     margin: 5px;
     border-radius: 15px;
     transition: 0.6s;
+    box-shadow: 5px 5px 5px gray;
 }
 
 .movie-body img{

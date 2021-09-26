@@ -18,7 +18,7 @@ const Movie = (props) => {
             readonly/>
             <p>Subscription Charge: ${subscription}</p>
             <p className = 'socal-media-icon'><i className="fab fa-facebook-square"></i> <i className="fab fa-instagram-square"></i></p>
-            <button onClick = { () => props.handleSubscription(props.movie)} className = 'btn btn-danger w-75'>Subscribe</button>
+            <button onClick = { () => props.handleSubscription(props.movie)} className = 'btn btn-danger w-50'>Subscribe</button>
         </div>
     );
 };

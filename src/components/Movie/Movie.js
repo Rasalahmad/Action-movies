@@ -2,7 +2,7 @@ import React from 'react';
 import './Movie.css'
 
 const Movie = (props) => {
-    const {thamnail, name, details, description, director, rating, subscription} = props.movie
+    const {thamnail, name, details, director, rating, subscription} = props.movie;
     return (
         <div className = 'movie-body'>
             <img src={thamnail} alt="" />

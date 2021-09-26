@@ -14,8 +14,8 @@ const Card = (props) => {
             </div>
             <div>
                 {
-                    card.map(movie => 
-                        <div className = 'subscripted'>
+                    card.map((movie, key) => 
+                        <div className = 'subscripted' key = {key}>
                             <p>{movie.name}</p>
                             <img src={movie.thamnail} alt="thamnail" />
                         </div>
